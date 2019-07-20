@@ -44,8 +44,8 @@ public class DoAllTheThing extends Component implements ActionListener {
 
         say[1] = new JLabel("Play drum");
         say[2] = new JLabel("Play note");
-		for (int i =0; i<say.length;say[i++].setForeground(Color.BLUE)) {}
-		for (int i =0; i<say.length; panel.add(say[i++])) {}
+		for (int i =0; i<say.length;say[i++].setForeground(Color.BLUE));
+		for (int i =0; i<say.length; panel.add(say[i++]));
         say[0].setBounds(320, 60, 200,20);
         say[1].setBounds(370, 300, 200,20);
         say[2].setBounds(370, 470, 200,20);
@@ -58,9 +58,9 @@ public class DoAllTheThing extends Component implements ActionListener {
 		stop.setVisible(false);
 		button.addActionListener(this);
 		stop.addActionListener(this);
-		for (int i =0; i<note.length; note[i++].addActionListener(this)) {}
+		for (int i =0; i<note.length; note[i++].addActionListener(this));
 		
-		for (int i =0; i<drum.length; drum[i++].addActionListener(this)) {}
+		for (int i =0; i<drum.length; drum[i++].addActionListener(this));
 
 		frame.add(panel);
 		frame.setSize(800, 800); 
