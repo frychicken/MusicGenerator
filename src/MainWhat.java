@@ -11,8 +11,6 @@ public class MainWhat {
 	public static void main(String args[]) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
 		frame = new JFrame();
 		new DoAllTheThing(frame);
-
-	
 	}
 
 }
